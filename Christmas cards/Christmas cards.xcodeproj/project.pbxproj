@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54D386527717C4400438B33 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D385A27717C4400438B33 /* nanopb.xcframework */; };
+		A54D386627717C4400438B33 /* Promises-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A54D385C27717C4400438B33 /* Promises-LICENSE */; };
+		A54D386727717C4400438B33 /* NanoPB-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A54D385D27717C4400438B33 /* NanoPB-LICENSE */; };
+		A54D386827717C4400438B33 /* OpenMeasurement-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A54D385E27717C4400438B33 /* OpenMeasurement-LICENSE */; };
+		A54D386927717C4400438B33 /* GoogleUtilities-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A54D385F27717C4400438B33 /* GoogleUtilities-LICENSE */; };
+		A54D386A27717C4400438B33 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D386027717C4400438B33 /* PromisesObjC.xcframework */; };
+		A54D386B27717C4400438B33 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D386127717C4400438B33 /* UserMessagingPlatform.xcframework */; };
+		A54D386C27717C4400438B33 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D386227717C4400438B33 /* GoogleMobileAds.xcframework */; };
+		A54D386D27717C4400438B33 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D386327717C4400438B33 /* GoogleAppMeasurement.xcframework */; };
+		A54D386E27717C4400438B33 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D386427717C4400438B33 /* GoogleUtilities.xcframework */; };
+		A54D387027717C8800438B33 /* InterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D386F27717C8800438B33 /* InterstitialView.swift */; };
+		A5C0ED83276BA80B00983006 /* Christmas_cardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0ED82276BA80B00983006 /* Christmas_cardsApp.swift */; };
+		A5C0ED85276BA80B00983006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0ED84276BA80B00983006 /* ContentView.swift */; };
+		A5C0ED87276BA80D00983006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C0ED86276BA80D00983006 /* Assets.xcassets */; };
+		A5C0ED8A276BA80D00983006 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C0ED89276BA80D00983006 /* Preview Assets.xcassets */; };
+		A5C0ED94276BB4DB00983006 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0ED93276BB4DB00983006 /* DetailView.swift */; };
+		A5E60A99276E1B03007D5CC7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E60A98276E1B03007D5CC7 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54D385A27717C4400438B33 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		A54D385C27717C4400438B33 /* Promises-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Promises-LICENSE"; sourceTree = "<group>"; };
+		A54D385D27717C4400438B33 /* NanoPB-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NanoPB-LICENSE"; sourceTree = "<group>"; };
+		A54D385E27717C4400438B33 /* OpenMeasurement-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OpenMeasurement-LICENSE"; sourceTree = "<group>"; };
+		A54D385F27717C4400438B33 /* GoogleUtilities-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GoogleUtilities-LICENSE"; sourceTree = "<group>"; };
+		A54D386027717C4400438B33 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		A54D386127717C4400438B33 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		A54D386227717C4400438B33 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		A54D386327717C4400438B33 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		A54D386427717C4400438B33 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		A54D386F27717C8800438B33 /* InterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialView.swift; sourceTree = "<group>"; };
+		A5C0ED7F276BA80B00983006 /* Christmas cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0ED82276BA80B00983006 /* Christmas_cardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_cardsApp.swift; sourceTree = "<group>"; };
+		A5C0ED84276BA80B00983006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5C0ED86276BA80D00983006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C0ED89276BA80D00983006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5C0ED92276BAD3D00983006 /* Christmas-cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Christmas-cards-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A5C0ED93276BB4DB00983006 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A5E60A98276E1B03007D5CC7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C0ED7C276BA80B00983006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D386527717C4400438B33 /* nanopb.xcframework in Frameworks */,
+				A54D386D27717C4400438B33 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				A54D386B27717C4400438B33 /* UserMessagingPlatform.xcframework in Frameworks */,
+				A54D386A27717C4400438B33 /* PromisesObjC.xcframework in Frameworks */,
+				A54D386C27717C4400438B33 /* GoogleMobileAds.xcframework in Frameworks */,
+				A54D386E27717C4400438B33 /* GoogleUtilities.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54D385927717C4400438B33 /* GoogleMobileAdsSdkiOS-8.8.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A54D385A27717C4400438B33 /* nanopb.xcframework */,
+				A54D385B27717C4400438B33 /* Licenses */,
+				A54D386027717C4400438B33 /* PromisesObjC.xcframework */,
+				A54D386127717C4400438B33 /* UserMessagingPlatform.xcframework */,
+				A54D386227717C4400438B33 /* GoogleMobileAds.xcframework */,
+				A54D386327717C4400438B33 /* GoogleAppMeasurement.xcframework */,
+				A54D386427717C4400438B33 /* GoogleUtilities.xcframework */,
+			);
+			name = "GoogleMobileAdsSdkiOS-8.8.0";
+			path = "../../../../Resources /Google Ads/GoogleMobileAdsSdkiOS-8.8.0";
+			sourceTree = "<group>";
+		};
+		A54D385B27717C4400438B33 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				A54D385C27717C4400438B33 /* Promises-LICENSE */,
+				A54D385D27717C4400438B33 /* NanoPB-LICENSE */,
+				A54D385E27717C4400438B33 /* OpenMeasurement-LICENSE */,
+				A54D385F27717C4400438B33 /* GoogleUtilities-LICENSE */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+		A5C0ED76276BA80A00983006 = {
+			isa = PBXGroup;
+			children = (
+				A5C0ED81276BA80B00983006 /* Christmas cards */,
+				A5C0ED80276BA80B00983006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C0ED80276BA80B00983006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0ED7F276BA80B00983006 /* Christmas cards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C0ED81276BA80B00983006 /* Christmas cards */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0ED92276BAD3D00983006 /* Christmas-cards-Info.plist */,
+				A5C0ED82276BA80B00983006 /* Christmas_cardsApp.swift */,
+				A54D386F27717C8800438B33 /* InterstitialView.swift */,
+				A5C0ED84276BA80B00983006 /* ContentView.swift */,
+				A5C0ED93276BB4DB00983006 /* DetailView.swift */,
+				A5E60A98276E1B03007D5CC7 /* ImagePicker.swift */,
+				A54D385927717C4400438B33 /* GoogleMobileAdsSdkiOS-8.8.0 */,
+				A5C0ED86276BA80D00983006 /* Assets.xcassets */,
+				A5C0ED88276BA80D00983006 /* Preview Content */,
+			);
+			path = "Christmas cards";
+			sourceTree = "<group>";
+		};
+		A5C0ED88276BA80D00983006 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0ED89276BA80D00983006 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C0ED7E276BA80B00983006 /* Christmas cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C0ED8D276BA80D00983006 /* Build configuration list for PBXNativeTarget "Christmas cards" */;
+			buildPhases = (
+				A5C0ED7B276BA80B00983006 /* Sources */,
+				A5C0ED7C276BA80B00983006 /* Frameworks */,
+				A5C0ED7D276BA80B00983006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christmas cards";
+			productName = "Christmas cards";
+			productReference = A5C0ED7F276BA80B00983006 /* Christmas cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C0ED77276BA80A00983006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A5C0ED7E276BA80B00983006 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A5C0ED7A276BA80A00983006 /* Build configuration list for PBXProject "Christmas cards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C0ED76276BA80A00983006;
+			productRefGroup = A5C0ED80276BA80B00983006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C0ED7E276BA80B00983006 /* Christmas cards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C0ED7D276BA80B00983006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D386927717C4400438B33 /* GoogleUtilities-LICENSE in Resources */,
+				A54D386827717C4400438B33 /* OpenMeasurement-LICENSE in Resources */,
+				A54D386727717C4400438B33 /* NanoPB-LICENSE in Resources */,
+				A5C0ED8A276BA80D00983006 /* Preview Assets.xcassets in Resources */,
+				A54D386627717C4400438B33 /* Promises-LICENSE in Resources */,
+				A5C0ED87276BA80D00983006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C0ED7B276BA80B00983006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C0ED85276BA80B00983006 /* ContentView.swift in Sources */,
+				A5E60A99276E1B03007D5CC7 /* ImagePicker.swift in Sources */,
+				A54D387027717C8800438B33 /* InterstitialView.swift in Sources */,
+				A5C0ED94276BB4DB00983006 /* DetailView.swift in Sources */,
+				A5C0ED83276BA80B00983006 /* Christmas_cardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5C0ED8B276BA80D00983006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5C0ED8C276BA80D00983006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C0ED8E276BA80D00983006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Christmas cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q3YXSXH96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Christmas-cards-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need a permission to save cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewushakov.Christmas-cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5C0ED8F276BA80D00983006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Christmas cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q3YXSXH96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Christmas-cards-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need a permission to save cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewushakov.Christmas-cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C0ED7A276BA80A00983006 /* Build configuration list for PBXProject "Christmas cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0ED8B276BA80D00983006 /* Debug */,
+				A5C0ED8C276BA80D00983006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C0ED8D276BA80D00983006 /* Build configuration list for PBXNativeTarget "Christmas cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0ED8E276BA80D00983006 /* Debug */,
+				A5C0ED8F276BA80D00983006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C0ED77276BA80A00983006 /* Project object */;
+}
